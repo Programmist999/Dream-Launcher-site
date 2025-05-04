@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(20, 20, 20);
+    color: #dbdbdb;
+    font-family: 'Monocraft', monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 20px;
+}
+
+.donwload_button {
+    margin-top: 15px;
+    width: 10%;
+    background-color: green;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    right: 0;
+}
+
+.donwload_button > a {
+    margin-block: 0;
+}
+
+.game_box_art {
+    width: 50%;
+    height: 100%;
+}
+
+.game_box_art > img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.invisible {
+    display: none;
+}
+
+.tabs_group {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+}
+
+.tabs_group > div {
+    background-color: black;
+    padding-inline: 10px;
+    padding-block: 5px;
+    font-size: 14px;
+    cursor: default;
+}
+
+.tabs_group > div:hover {
+    color: rgb(78, 78, 78);
+}
+
+.tab_active {
+    background-color: rgb(162, 0, 255) !important;
+}
