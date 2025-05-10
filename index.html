@@ -2,31 +2,33 @@
     <head>
         <title>Dream Launcher</title>
         <link rel="stylesheet" href="zowaL.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <div class="game_box_art"> 
             <img src="./img/00.png">
         </div>
-        <div class="game_brief_description">
-            <h1>Dream Launcher</h1>
-            <h3>Это обычный лаунчер без всякой рекламы. Тут нету встроенных версий с optifine или forge как у tlauncher, но вы можете их установить в любой момент.</h3>
-            <div class="donwload_button">
-                <a href="https://drive.google.com/drive/folders/1kpSmvRdYLfbcb5zlDMDlA3yfiSQKamcp?usp=drive_link">Скачать</a>
+        <div class="texts">
+            <div class="game_brief_description">
+                <h1>Dream Launcher</h1>
+                <h3>Это обычный лаунчер без всякой рекламы. Тут нету встроенных версий с optifine или forge как у tlauncher, но вы можете их установить в любой момент.</h3>
+                <div class="donwload_button">
+                    <a href="https://drive.google.com/drive/folders/1kpSmvRdYLfbcb5zlDMDlA3yfiSQKamcp?usp=drive_link">Скачать</a>
+                </div>
             </div>
-        </div>
-        <div class="header_info_bottom">
-            <div class="tabs_group">
-                <div class="tab_active" id="firstActiveTab" onclick="clickTab(event)" data-tab-id="tab_description">Информация</div>
-                <div onclick="clickTab(event)" data-tab-id="tab_system_requiments">Примечания</div>
-            </div>
-            <div id="tab_description">
-            <p>Что бы minecraft запустился обязательно напишите ник (username), без него при запуске лаунчер просто не запустит minecraft и вылетит.</p>
-            <p>Это наш первый проект поэтомуне судите строго, если что то не так то помните нам по 13-15 лет. Наша компания называется: Dream games, Игры мечты</p>
-            </div>
-            <div id="tab_system_requiments" class="invisible">
-                <p>У нашего лайнчера отдельная папка, не как обычно .minecraft, а .zowalauncher</p>
-                <p>Вы верно поняли, в нашей группе авторов произошли разногласия, поэтому где то zowa launcher а где то dream launcher</p>
-            </div>    
+            <div class="header_info_bottom">
+                <div class="tabs_group">
+                    <div class="tab_active" id="firstActiveTab" onclick="clickTab(event)" data-tab-id="tab_description">Информация</div>
+                    <div onclick="clickTab(event)" data-tab-id="tab_system_requiments">Примечания</div>
+                </div>
+                <div id="tab_description" class="tab_content">
+                    <p>Что бы minecraft запустился обязательно напишите ник (username), без него при запуске лаунчер просто не запустит minecraft и вылетит.</p>
+                    <p>Это наш первый проект поэтому не судите строго, если что то не так то помните нам по 13-15 лет. Наша компания называется: Dream games, Игры мечты</p>
+                </div>
+                <div id="tab_system_requiments" class="invisible tab_content">
+                    <p>У нашего лайнчера отдельная папка, не как обычно .minecraft, а .zowalauncher</p>
+                    <p>Вы верно поняли, в нашей группе авторов произошли разногласия, поэтому где то zowa launcher а где то dream launcher</p>
+                </div>    
         </div>
     </body>
     <footer>
