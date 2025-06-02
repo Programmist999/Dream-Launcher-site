@@ -55,11 +55,12 @@ body {
 }
 
 .tabs_group > div {
-    background-color: black;
+    background-color: rgb(207, 93, 0);
     padding-inline: 10px;
     padding-block: 5px;
     font-size: 14px;
     cursor: default;
+    border-radius: 7px;
 }
 
 .tabs_group > div:hover {
@@ -78,7 +79,7 @@ body {
 .texts {
     width: 80%;
     display: flex;
-    gap: 30px;
+    gap: 20px;
     flex-direction: column;
 }
 
@@ -94,7 +95,74 @@ body {
         height: 50%;
     }
 
+    .dream-logo {
+        display: none;
+    }
+
     .donwload_button {
         margin-inline: auto;
     }
+
+    .page2_btn {
+        margin-inline: auto;
+    }
+}
+
+.page2_btn {
+    margin-top: 40px;
+    width: fit-content;
+    background-color: rgb(207, 93, 0);
+    border-radius: 7px;
+    padding-block: 10px;
+    padding-inline: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    right: 0;
+    position: fixed;
+    top: 180;
+    left: 30;
+}
+
+.page2_btn > a {
+    margin-block: 0;
+}
+
+.page1_btn {
+    margin-top: 40px;
+    width: fit-content;
+    background-color: rgb(207, 93, 0);
+    border-radius: 7px;
+    padding-block: 10px;
+    padding-inline: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    right: 0;
+    position: fixed;
+    top: 130;
+    left: 30;
+}
+
+.page1_btn > a {
+    margin-block: 0;
+}
+
+.page_name_btn {
+    margin-top: 40px;
+    width: fit-content;
+    background-color: rgb(207, 93, 0);
+    border-radius: 7px;
+    padding-block: 10px;
+    padding-inline: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    right: 0;
+    position: fixed;
+    top: 10;
+    left: 30;
 }
